@@ -21,7 +21,7 @@ module.exports = {
         background_color: conf.background_color,
         theme_color: conf.theme_color,
         display: `standalone`,
-        icon: `public/favicon.png`,
+        icon: `static/images/favicon.png`,
       }
     },
     `gatsby-plugin-image`,
