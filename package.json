@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "keshav-gupta-personal-site",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Keshav Gupta's Personal Website. Based on the Gatsby starter code.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Keshav Gupta",
   "dependencies": {
     "gatsby": "^5.4.0",
     "gatsby-plugin-image": "^3.4.0",
