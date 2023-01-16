@@ -5,11 +5,15 @@
   "version": "0.1.0",
   "author": "Keshav Gupta",
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@fontsource/quattrocento-sans": "^4.5.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/material": "^5.11.4",
     "bootstrap": "^5.1.3",
     "core-util-is": "^1.0.3",
     "gatsby": "^4.13.1",
@@ -28,9 +32,15 @@
     "react-bootstrap": "^2.0.1",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
+    "react-icons": "^4.7.1",
     "react-modal": "^3.14.3",
     "react-responsive-carousel": "^3.2.22",
-    "react-tooltip": "^4.2.21"
+    "react-scroll": "^1.8.9",
+    "react-tooltip": "^4.2.21",
+    "react-tsparticles": "^2.7.1",
+    "react-vertical-timeline-component": "^3.6.0",
+    "tsparticles": "^2.7.1",
+    "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
