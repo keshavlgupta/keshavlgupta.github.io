@@ -40,13 +40,8 @@ module.exports = {
         trackingIds: [
           conf.googleAnalytics
         ],
-        gtagConfig: {
-          cookie_expires: 0,
-          send_page_view: true
-        },
         pluginConfig: {
           head: true,
-          respectDNT: true,
         },
       },
     },
