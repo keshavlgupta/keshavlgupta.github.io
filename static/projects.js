@@ -6,14 +6,14 @@ const projects = [
 		source: "https://github.com/Kggupta/BigBrother-Demo",
 		website: "https://www.patreon.com/bigbrotherbot"
 	},
-	// {
-	// 	image: "./images/projects/keshav_gupta_au_tomato_language.png",
-	// 	title: "AuTomato",
-	// 	details: `A programming language, featuring a lexer, parser, and interpreter using C++, object-oriented programming, 
-	// 			and design patterns to execute code.`,
-	// 	website: "",
-	// 	source: "",
-	// },
+	{
+	 	image: "./images/projects/keshav_gupta_au_tomato_language.png",
+	 	title: "AuTomato",
+	 	details: `A programming language, featuring a lexer, parser, and interpreter using C++, object-oriented programming, 
+	 			and design patterns to execute code.`,
+	 	website: "",
+	 	source: "https://github.com/Kggupta/AuTomato",
+	},
 	// {
 	// 	image: "./images/projects/keshav_gupta_workout_bird.jpeg",
 	// 	title: "WorkoutBird",
