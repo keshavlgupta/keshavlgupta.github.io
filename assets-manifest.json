@@ -12,9 +12,11 @@
   "commons.js": "commons-3040c774738ab9fb5b99.js",
   "component---src-pages-404-js-3f53192ded120b1ecd0f.js.map": "component---src-pages-404-js-3f53192ded120b1ecd0f.js.map",
   "component---src-pages-404-js.js": "component---src-pages-404-js-3f53192ded120b1ecd0f.js",
+  "component---src-pages-index-js-7c26f8ff8d3c84607c47.js.LICENSE.txt": "component---src-pages-index-js-7c26f8ff8d3c84607c47.js.LICENSE.txt",
+  "component---src-pages-index-js-7c26f8ff8d3c84607c47.js.map": "component---src-pages-index-js-7c26f8ff8d3c84607c47.js.map",
   "component---src-pages-index-js-e327c654278678ef38d5.js.LICENSE.txt": "component---src-pages-index-js-e327c654278678ef38d5.js.LICENSE.txt",
   "component---src-pages-index-js-e327c654278678ef38d5.js.map": "component---src-pages-index-js-e327c654278678ef38d5.js.map",
-  "component---src-pages-index-js.js": "component---src-pages-index-js-e327c654278678ef38d5.js",
+  "component---src-pages-index-js.js": "component---src-pages-index-js-7c26f8ff8d3c84607c47.js",
   "framework-ad9ea4eba0525f0678b9.js.LICENSE.txt": "framework-ad9ea4eba0525f0678b9.js.LICENSE.txt",
   "framework-ad9ea4eba0525f0678b9.js.map": "framework-ad9ea4eba0525f0678b9.js.map",
   "framework.js": "framework-ad9ea4eba0525f0678b9.js",
@@ -53,5 +55,6 @@
   "static/vue.png": "static/vue-b004b9e775a68ffd460b182261b23524.png",
   "styles.css": "styles.ca56fd1679037aff32cf.css",
   "webpack-runtime-e190bd7450600700c440.js.map": "webpack-runtime-e190bd7450600700c440.js.map",
-  "webpack-runtime.js": "webpack-runtime-e190bd7450600700c440.js"
+  "webpack-runtime-e6d0339b26a1764deab1.js.map": "webpack-runtime-e6d0339b26a1764deab1.js.map",
+  "webpack-runtime.js": "webpack-runtime-e6d0339b26a1764deab1.js"
 }
