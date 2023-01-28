@@ -28,13 +28,13 @@ const projects = [
 	// 	website: "",
 	// 	source: "",
 	// },
-	// {
-	// 	image: "./images/projects/keshav_gupta_shoppies_shopify.png",
-	// 	title: "The Shoppies",
-	// 	details: `My attempt at the shopify developer challenge allowing users to nominate movies via the OMDB API.`,
-	// 	website: "",
-	// 	source: "",
-	// },
+	{
+	 	image: "./images/projects/keshav_gupta_shoppies_shopify.png",
+		title: "The Shoppies",
+		details: `My attempt at the shopify developer challenge allowing users to nominate movies via the OMDB API.`,
+		website: "",
+		source: "",
+	},
 	{
 		image: "./images/projects/keshav_gupta_mips_emulator.png",
 		title: "Mips Emulator",
