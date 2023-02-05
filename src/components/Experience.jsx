@@ -31,9 +31,9 @@ const Style = makeStyles(() => ({
 	iconButtonBorder: {
 		transition: "0.3s",
 		borderRadius: "55%",
-		color: "white",
 		border: "1px solid white",
 		marginRight: "2.5vw",
+		color: "black",
 		'&:hover': {
 			backgroundColor: "#FFFFFF",
 			color: "#0644A3",
