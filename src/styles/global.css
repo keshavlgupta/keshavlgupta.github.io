@@ -17,10 +17,17 @@ body,
   width: 100%;
 }
 
+button {
+	all: unset;
+	cursor: pointer;
+}
+
 a {
-  text-decoration: none;
+  all: unset;
+  background-color: transparent;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration:rgba(128, 128, 128, 0.6);
+  box-shadow: 0 0px 0px rgba(128, 128, 128, 0.6)
 }
