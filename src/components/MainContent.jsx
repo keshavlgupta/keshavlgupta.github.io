@@ -4,14 +4,13 @@ import { makeStyles } from '@material-ui/styles';
 import { Link } from 'react-scroll'
 import Typewriter from "typewriter-effect"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { IoMail, IoLogoInstagram } from "react-icons/io5";
+import { IoMail } from "react-icons/io5";
 import image from "../../static/images/keshav_gupta_profile.png";
 
 const links = [
 	{link: "https://github.com/Kggupta", label: "github"},
 	{link: "https://www.linkedin.com/in/keshavlgupta/", label: "linkedin"},
 	{link: "mailto:keshav.gupta@uwaterloo.ca", label: "email"},
-	{link: "https://www.instagram.com/_kkeshavg/?hl=en", label: "instagram"}
 ]
 
 const Style = makeStyles(() => ({
@@ -75,10 +74,8 @@ function LinkIcon(props) {
 			return (<FaGithub className={{width: "3vh", height: "auto"}} />);
 		case "linkedin":
 			return (<FaLinkedin className={{width: "3vh", height: "auto"}} />);
-		case "email":
-			return (<IoMail className={{width: "3vh", height: "auto"}} />);
 		default:
-			return (<IoLogoInstagram className={{width: "3vh", height: "auto"}} />);
+			return (<IoMail className={{width: "3vh", height: "auto"}} />);
 	}
 }
 

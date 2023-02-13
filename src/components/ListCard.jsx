@@ -15,13 +15,13 @@ function checkValid(value) {
 const ListCard = ({image, title, details, website, source}) => {
 	const hasWebsite = checkValid(website)
 	const hasSource = checkValid(source)
-	const isLargeScreen = useMediaQuery('(min-width: 1200px)');
+	const isLargeScreen = useMediaQuery('(min-width: 1400px)');
 
 	return (
 		<Card sx={{ display:'flex', padding: '20px' }}>
 			{isLargeScreen && <CardMedia
 			component="img"
-			sx={{ display: "flex", maxWidth: '20%', maxHeight: "20%" }}
+			sx={{ display: "flex", maxWidth: '15%', maxHeight: "15%" }}
 			image={image}
 			alt="keshav-gupta-project-image"
 			/>}
