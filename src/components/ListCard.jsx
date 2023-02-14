@@ -21,7 +21,7 @@ const ListCard = ({image, title, details, website, source}) => {
 		<Card sx={{ display:'flex', padding: '20px' }}>
 			{isLargeScreen && <CardMedia
 			component="img"
-			sx={{ display: "flex", maxWidth: '15%', maxHeight: "15%" }}
+			sx={{ display: "flex", maxWidth: '200px', maxHeight: "200px" }}
 			image={image}
 			alt="keshav-gupta-project-image"
 			/>}
