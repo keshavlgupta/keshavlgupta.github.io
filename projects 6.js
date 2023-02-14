@@ -2,7 +2,7 @@ const projects = [
 	{
 		image: "./images/projects/keshav_gupta_stock_market_bot.png",
 		title: "Big Brother",
-		details: `A containerized bot hosted in AWS, that analyzes trends in a stock market game using Express.js and Node.js. Currently supports 50,000+ daily users and $100+ in monthly revenue.`,
+		details: `A containerized bot hosted in AWS, that analyzes trends in a stock market game using Express.js and Node.js. Currently supports 100,000+ daily users and $100+ in monthly revenue.`,
 		source: "https://github.com/Kggupta/BigBrother-Demo",
 		website: "https://www.patreon.com/bigbrotherbot"
 	},
