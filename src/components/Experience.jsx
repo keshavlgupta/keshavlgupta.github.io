@@ -69,6 +69,20 @@ const Experience = () => {
 				{
 					timeline.map(element => {
 						const isWorkIcon = element.icon === "internship";
+						let iconType = "internship";
+
+						switch (element.icon) {
+							case "research":
+								iconType = "Research";
+								break;
+							case "club":
+								iconType = "Club";
+								break;
+							default:
+								iconType = "Internship";
+								break;
+						}
+						
 						const showButton = element.buttonText !== undefined && element.buttonText !== null &&
 											element.buttonText !== "";
 						return (
@@ -80,7 +94,7 @@ const Experience = () => {
 								icon={isWorkIcon ? <IoBriefcase /> : <IoBook />}
 							>
 								{isLargeScreen && <img display="inline" src={element.logo} className={classes.image} alt="company logo" />}
-								<h3 className='vertical-timeline-element-title'>{element.title} - {isWorkIcon ? "Internship" : "Research"}</h3>
+								<h3 className='vertical-timeline-element-title'>{element.title} - {iconType}</h3>
 								<h5 className='vertical-timeline-element-subtitle'>{element.location}</h5>
 								<p id="description">{element.description}</p>
 								{showButton && (
