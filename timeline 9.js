@@ -24,11 +24,11 @@ const timeline = [
 		description: "Synthesized vehicle sensor data into a local cost map of the environment using C++ and ROS, increasing responsiveness to dynamic obstacles by 10% during simulations.",
 		date: "April 2022 - August 2022",
 		icon: "club",
-		logo: "./images/logos/watonomous.png"
+		logo: "./image/logos/watonomous.png"
 	},
 	{
 		id: 4,
-		title: "Full Stack Developer",
+		title: "Full-Stack Developer",
 		location: "Department of National Defence",
 		description: "Expanded feature-set of an automated malware processing system using React and Flask front-ends, with a Java Spring Boot back-end, decreasing server-side latency from 1s to 200ms.",
 		date: "May 2021 - August 2021",
