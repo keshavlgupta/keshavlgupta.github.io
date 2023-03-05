@@ -3,7 +3,7 @@ const timeline = [
 		id: 1,
 		title: "Software Developer",
 		location: "Bentley Systems",
-		description: "Developing new endpoints and models for the iTwin platform's machine learning API using C#, Python, and TensorFlow.",
+		description: "Developing new endpoints and models for the iTwin platform's machine learning API using C#, C++, and Python.",
 		date: "January 2023 - May 2023",
 		icon: "internship",
 		logo: "./images/logos/bentleysystems.png"
