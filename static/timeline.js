@@ -12,7 +12,7 @@ const timeline = [
 		id: 2,
 		title: "Software Developer",
 		location: "Bentley Systems",
-		description: "Led the end-to-end implementation of a microservice to migrate AssetWise APM software configuration from a .NET desktop application into a web application using Python to process data into a SQL server, reducing setup time by 90%.",
+		description: "Led the end-to-end implementation of a microservice for users to migrate AssetWise APM configuration SaaS cloud-based web application using C++, Django (Python), and a SQL database, reducing setup time by 90%.",
 		date: "May 2022 - August 2022",
 		icon: "internship",
 		logo: "./images/logos/bentleysystems.png"
