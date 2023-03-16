@@ -14,6 +14,13 @@ const projects = [
 	 	website: "",
 	 	source: "https://github.com/Kggupta/AuTomato",
 	},
+	{
+		image: "./favicon.png",
+		title: "Portfolio Website",
+		details: `My personal website, built using TypeScript, JavaScript, and React. Integrated Search Engine Optimization (SEO) using Gatsby.`,
+		website: "https://keshavlgupta.me/",
+		source: "https://github.com/Kggupta/Kggupta.github.io",
+	},
 	// {
 	// 	image: "./images/projects/keshav_gupta_workout_bird.jpeg",
 	// 	title: "WorkoutBird",
@@ -48,7 +55,7 @@ const projects = [
 		details: `React Native application to manage a monthly budget and display spending statistics with a REST back-end leveraging Google APIs and Google Cloud.`,
 		website: "",
 		source: "https://github.com/Kggupta/Bungee",
-	},
+	}
 ];
 
 export default projects;
