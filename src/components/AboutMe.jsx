@@ -151,10 +151,10 @@ const AboutMe = () => {
       <Grid item xs={10} md={5}>
         <Typography display="inline" variant="body1">
           I am a third year Honours Computer Science (Co-Op) student at the <b>University of Waterloo</b>.<br/><br/>
-		  I have completed <b>two internships</b> and <b>one research term</b> so far. Currently, I am doing my <b>third software internship </b> 
-		  as a Software Developer at Bentley Systems, developing features for their Machine Learning API using Python and C#.<br/><br/>
+		  I have completed <b>three internships</b> and <b>one research term</b> so far. During my third internship, I was a <b>Software Developer</b> at <b>Bentley Systems</b>,
+      developing new features and machine learning models for their digital twin platform, using .NET, C++, and Python.<br/><br/>
 		  I am a member of WATonomous, a student design team with 100+ participants, 
-		  creating level 4 self-driving vehicle software primarily using C++ and Python.<br/><br/>When I am not programming, I love swimming,
+		  creating level 4 self-driving vehicle software using embedded C++.<br/><br/>When I am not programming, I love swimming,
 		  martial arts, and&nbsp;
 		  </Typography>
 		  <Typography onMouseEnter={() => changeImg('photography')}
@@ -166,7 +166,7 @@ const AboutMe = () => {
 			</Typography>
 		  <Typography display="inline" variant="body1">! I am a certified lifeguard and a black-belt in Tae-Kwon-Do.
 		  You can reach me through any of the links below.<br/><br/>
-          <b>Currrently seeking internships for Spring or Fall 2023.</b>
+          <b>Currrently seeking internships for Fall 2023.</b>
         </Typography>
 		<br/>
 		<Divider/>

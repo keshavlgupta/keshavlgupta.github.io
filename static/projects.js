@@ -21,20 +21,20 @@ const projects = [
 		website: "https://keshavlgupta.me/",
 		source: "https://github.com/Kggupta/Kggupta.github.io",
 	},
-	// {
-	// 	image: "./images/projects/keshav_gupta_workout_bird.jpeg",
-	// 	title: "WorkoutBird",
-	// 	details: `Cross-platform application using Flutter that plans and tracks gym workouts.`,
-	// 	website: "",
-	// 	source: "",
-	// },
-	// {
+	{
+	 	image: "./images/projects/keshav_gupta_workout_bird.jpeg",
+	 	title: "WorkoutBuddy",
+	 	details: `An iOS and WatchOS application that helps you track your workouts and fitness goals.`,
+	 	website: "",
+	 	source: "https://github.com/Kggupta/WorkoutBuddy",
+	},
+	//{
 	// 	image: "./images/projects/keshav_gupta_docstealth.png",
 	// 	title: "DocStealth",
-	// 	details: `CLI tool using GoLang to remove metadata from all documents and images in a folder.`,
+	// 	details: `A CLI tool built with GoLang to edit and remove metadata from documents and images in a folder.`,
 	// 	website: "",
-	// 	source: "",
-	// },
+	//	source: "https://github.com/Kggupta/DocStealth",
+	//},
 	{
 	 	image: "./images/projects/keshav_gupta_shoppies_shopify.png",
 		title: "The Shoppies",
@@ -45,7 +45,7 @@ const projects = [
 	{
 		image: "./images/projects/keshav_gupta_mips_emulator.png",
 		title: "Mips Emulator",
-		details: `A program that consumes MIPS assembly code, runs the code and outputs the final state of the environment using C++ and Make.`,
+		details: `A program that consumes MIPS assembly code, runs the code, and outputs the final state of the environment using C++ and Make.`,
 		website: "",
 		source: "https://github.com/Kggupta/MipsEmulator",
 	},
