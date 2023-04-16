@@ -12,7 +12,6 @@ import swift from './images/languages/swift.png'
 import sql from './images/languages/sql.png'
 import html from './images/languages/html.png'
 import css from './images/languages/css.png'
-import go from './images/languages/go.png'
 
 import node from './images/technologies/node.png'
 import react from './images/technologies/react.png'
@@ -38,7 +37,7 @@ import firebase from './images/tools/firebase.png'
 import myphotography from './images/keshav_gupta_photography.png'
 
 
-const skills = {
+export default {
 	default: profile,
 
 	JavaScript: js,
@@ -53,7 +52,6 @@ const skills = {
 	SQL: sql,
 	HTML: html,
 	CSS: css,
-	Go: go,
 
 	Node: node,
 	React: react,
@@ -78,5 +76,3 @@ const skills = {
 	Firebase: firebase,
 	photography: myphotography
 }
-
-export default skills;
