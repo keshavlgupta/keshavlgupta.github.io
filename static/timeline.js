@@ -1,5 +1,23 @@
 const timeline = [
 	{
+		id: 6,
+		title: "Software Engineer",
+		location: "SpaceX",
+		description: "Incoming Software Engineering Intern at SpaceX, Starlink team in Seattle, Washington.",
+		date: "August 2023 - December 2023",
+		icon: "internship",
+		logo: "./images/logos/spacex.png"
+	},
+	{
+		id: 7,
+		title: "Vice President of Finance",
+		location: "Mathematics Society",
+		description: "Managing $40,000+ in funds for the University of Waterloo and math faculty student body.",
+		date: "May 2023 - Present",
+		icon: "club",
+		logo: "./images/logos/mathsoc.png"
+	},
+	{
 		id: 3,
 		title: "Autonomous Software Developer",
 		location: "WATonomous",

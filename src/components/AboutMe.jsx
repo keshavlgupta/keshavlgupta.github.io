@@ -89,7 +89,8 @@ const AboutMe = () => {
 		"Swift",
 		"SQL", 
 		"HTML",
-		"CSS"
+		"CSS",
+    "Go"
 	];
 
 	const technologies = [
@@ -166,7 +167,7 @@ const AboutMe = () => {
 			</Typography>
 		  <Typography display="inline" variant="body1">! I am a certified lifeguard and a black-belt in Tae-Kwon-Do.
 		  You can reach me through any of the links below.<br/><br/>
-          <b>Currrently seeking internships for Fall 2023.</b>
+          <b>Currrently seeking internships for Summer 2024.</b>
         </Typography>
 		<br/>
 		<Divider/>
