@@ -12,7 +12,7 @@ const timeline = [
 		id: 7,
 		title: "Vice President of Finance",
 		location: "Mathematics Society",
-		description: "Managing $50,000+ in funds for the University of Waterloo and math faculty student body.",
+		description: "Managed $50,000+ in funds for the University of Waterloo and math faculty student body.",
 		date: "May 2023 - August 2023",
 		icon: "club",
 		logo: "./images/logos/mathsoc.png"
