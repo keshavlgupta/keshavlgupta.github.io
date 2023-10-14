@@ -3,7 +3,7 @@ const timeline = [
 		id: 6,
 		title: "Software Engineer",
 		location: "SpaceX",
-		description: "Software Engineering Intern at SpaceX, Starlink team in Seattle, Washington.",
+		description: "Built a cost analysis and modelling system for the Starlink team in Seattle, Washington.",
 		date: "August 2023 - December 2023",
 		icon: "internship",
 		logo: "./images/logos/spacex.png"
