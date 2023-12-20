@@ -36,13 +36,6 @@ const projects = [
 	//	source: "https://github.com/Kggupta/DocStealth",
 	//},
 	{
-	 	image: "./images/projects/keshav_gupta_shoppies_shopify.png",
-		title: "The Shoppies",
-		details: `My attempt at the shopify developer challenge allowing users to nominate movies via the OMDB API.`,
-		website: "https://shopifyshoppies.web.app/",
-		source: "https://github.com/Kggupta/ShopifyShoppies",
-	},
-	{
 		image: "./images/projects/keshav_gupta_mips_emulator.png",
 		title: "Mips Emulator",
 		details: `A program that consumes MIPS assembly code, runs the code, and outputs the final state of the environment using C++ and Make.`,
