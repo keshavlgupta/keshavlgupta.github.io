@@ -28,20 +28,6 @@ const projects = [
 	 	website: "",
 	 	source: "https://github.com/Kggupta/WorkoutBuddy",
 	},
-	//{
-	// 	image: "./images/projects/keshav_gupta_docstealth.png",
-	// 	title: "DocStealth",
-	// 	details: `A CLI tool built with GoLang to edit and remove metadata from documents and images in a folder.`,
-	// 	website: "",
-	//	source: "https://github.com/Kggupta/DocStealth",
-	//},
-	{
-	 	image: "./images/projects/keshav_gupta_shoppies_shopify.png",
-		title: "The Shoppies",
-		details: `My attempt at the shopify developer challenge allowing users to nominate movies via the OMDB API.`,
-		website: "https://shopifyshoppies.web.app/",
-		source: "https://github.com/Kggupta/ShopifyShoppies",
-	},
 	{
 		image: "./images/projects/keshav_gupta_mips_emulator.png",
 		title: "Mips Emulator",

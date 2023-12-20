@@ -165,7 +165,7 @@ const AboutMe = () => {
 					photography
 			</Typography>
 		  <Typography display="inline" variant="body1">! I am a certified lifeguard and a black-belt in Tae-Kwon-Do.
-		  You can reach me through any of the links below.<br/><br/>
+		  You can reach me through any of the links below.
         </Typography>
 		<br/>
 		<Divider/>
