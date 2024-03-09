@@ -1,7 +1,7 @@
 # Github Pages Personal Site
 ***
 
-The site is currently available on [keshavlgupta.me](https://keshavlgupta.me)
+The site is currently available on [kggupta.github.io](kggupta.github.io)
 
 ### Development Details
 
