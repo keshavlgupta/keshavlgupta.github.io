@@ -18,7 +18,7 @@ const projects = [
 		image: "./images/favicon.png",
 		title: "Portfolio Website",
 		details: `My personal website, built using TypeScript, JavaScript, and React. Integrated Search Engine Optimization (SEO) using Gatsby.`,
-		website: "https://keshavlgupta.me/",
+		website: "https://kggupta.github.io",
 		source: "https://github.com/Kggupta/Kggupta.github.io",
 	},
 	{
