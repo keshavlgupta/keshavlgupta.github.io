@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import {
   Grid,
   Typography,
@@ -6,128 +6,129 @@ import {
   Button,
   useMediaQuery,
   Fade,
-} from "@material-ui/core";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { makeStyles } from '@material-ui/styles';
+} from "@material-ui/core"
+import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { MdEmail } from "react-icons/md"
+import { makeStyles } from "@material-ui/styles"
 import links from "../../static/skills"
 
-const Style = makeStyles((theme) => ({
-	root: {
-		background: 'white'
-	},
-	title: {
-		textAlign: "center",
-		color: 'black'
-	},
-	subTitle: {
-    	fontWeight: "600",
-		color: 'black',
-	},
-	subTitleSmall: {
-		fontWeight: "600"
-	},
-	picSpacing: {
-		height: "80%",
-		display: "flex",
-		alignItems: "center",
-	},
-	profilePic: {
-		transition: "0.3s",
-		width: "80%",
-		height: "auto",
-		"&:hover": {
-			transition: "0.3s",
-			boxShadow: "0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
-		}
-	},
-	skills: {
-		display: "inline-block",
-		"&:hover": {
-			transition: "0.3s",
-			color: "grey"
-		}
-	},
-	button: {
-		backgroundColor: "#000000",
-		color: 'white',
-		borderRadius: 20,
-		marginRight: "2%",
-		textTransform: "none",
-		width: "90%",
-		"&:hover": {
-			transition: "0.3s",
-			color: "black",
-			backgroundColor: 'white',
-		}
-	},
-	buttonSpacing: {
-		display: "flex",
-		justifyContent: "center"
-	},
-	links: {
-		textDecoration: "none"
-	}
+const Style = makeStyles(theme => ({
+  root: {
+    background: "white",
+  },
+  title: {
+    textAlign: "center",
+    color: "black",
+  },
+  subTitle: {
+    fontWeight: "600",
+    color: "black",
+  },
+  subTitleSmall: {
+    fontWeight: "600",
+  },
+  picSpacing: {
+    height: "80%",
+    display: "flex",
+    alignItems: "center",
+  },
+  profilePic: {
+    transition: "0.3s",
+    width: "80%",
+    height: "auto",
+    "&:hover": {
+      transition: "0.3s",
+      boxShadow:
+        "0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+    },
+  },
+  skills: {
+    display: "inline-block",
+    "&:hover": {
+      transition: "0.3s",
+      color: "grey",
+    },
+  },
+  button: {
+    backgroundColor: "#000000",
+    color: "white",
+    borderRadius: 20,
+    marginRight: "2%",
+    textTransform: "none",
+    width: "90%",
+    "&:hover": {
+      transition: "0.3s",
+      color: "black",
+      backgroundColor: "white",
+    },
+  },
+  buttonSpacing: {
+    display: "flex",
+    justifyContent: "center",
+  },
+  links: {
+    textDecoration: "none",
+  },
 }))
 
 const AboutMe = () => {
-	const classes = Style();
-	const md = useMediaQuery("(max-width: 960px)");
+  const classes = Style()
+  const md = useMediaQuery("(max-width: 960px)")
 
-	const [image, setImage] = React.useState(links["default"]);
-	const [fade, setFade] = React.useState(true);
+  const [image, setImage] = React.useState(links["default"])
+  const [fade, setFade] = React.useState(true)
 
-	const languages = [
-		"JavaScript",
-		"TypeScript",
-		"Python",
-		"C",
-		"C++",
-		"C#",
-		"GraphQL",
-		"Java",
-		"Swift",
-		"SQL", 
-		"HTML",
-		"CSS",
-    "Go"
-	];
+  const languages = [
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "C",
+    "C++",
+    "C#",
+    "GraphQL",
+    "Java",
+    "Swift",
+    "SQL",
+    "HTML",
+    "CSS",
+    "Go",
+  ]
 
-	const technologies = [
-		"Node",
-		"React",
-		"React Native",
-		"Redux",
-		"Vue",
-		"Flutter",
-		"Express",
-		".NET",
-		"Flask",
-		"Django",
-	]
+  const technologies = [
+    "Node",
+    "React",
+    "React Native",
+    "Redux",
+    "Vue",
+    "Flutter",
+    "Express",
+    ".NET",
+    "Flask",
+    "Django",
+  ]
 
-	const tools = [
-		"Azure",
-		"AWS",
-		"Heroku",
-		"Git",
-		"Apollo",
-		"Docker",
-		"Kubernetes",
-		"PostgreSQL",
-		"MongoDB",
-		"Firebase"
-	];
+  const tools = [
+    "Azure",
+    "AWS",
+    "Heroku",
+    "Git",
+    "Apollo",
+    "Docker",
+    "Kubernetes",
+    "PostgreSQL",
+    "MongoDB",
+    "Firebase",
+  ]
 
-	const changeImg = (language) => {
-		setFade(false);
-		setTimeout(() => {
-			setImage(links[language]);
-			setFade(true);
-		}, 200);
-	};
-  
-	  return (
+  const changeImg = language => {
+    setFade(false)
+    setTimeout(() => {
+      setImage(links[language])
+      setFade(true)
+    }, 200)
+  }
+
+  return (
     <Grid id="about" className={classes.root} container>
       {/* Title */}
       <Grid className={classes.title} item xs={12}>
@@ -151,25 +152,32 @@ const AboutMe = () => {
       {/* Text */}
       <Grid item xs={10} md={5}>
         <Typography display="inline" variant="body1">
-          I am a fourth year Honours Computer Science (Co-Op) student at the <b>University of Waterloo</b>.<br/><br/>
-		  I have completed <b>four internships</b> and <b>one research term</b> so far. I'm returning to <b>SpaceX</b> as a <b>Software Engineering Intern</b> in Summer 2024.<br/><br/>
-		  I am also a member of WATonomous, a student design team with 100+ participants, 
-		  creating level 4 self-driving vehicle software using embedded C++.<br/><br/>When I am not programming, I love swimming,
-		  martial arts, and&nbsp;
-		  </Typography>
-		  <Typography onMouseEnter={() => changeImg('photography')}
-		  			onMouseLeave={() => changeImg("default")} 
-					style={{color: 'grey'}}
-					display="inline" 
-					variant="body1">
-					photography
-			</Typography>
-		  <Typography display="inline" variant="body1">! I am a certified lifeguard and a black-belt in Tae-Kwon-Do.
-		  You can reach me through any of the links below.
+          I graduated from the <b>University of Waterloo</b> with a degree in
+          Computer Science in 2024.
+          <br />
+          <br />
+          I'm currently a software engineer at <b>SpaceX</b> in
+          <b> Seattle, Washington</b>.
+          <br />
+          <br />
+          When I am not programming, I love swimming, martial arts, and&nbsp;
         </Typography>
-		<br/>
-		<Divider/>
-		<br/>
+        <Typography
+          onMouseEnter={() => changeImg("photography")}
+          onMouseLeave={() => changeImg("default")}
+          style={{ color: "grey" }}
+          display="inline"
+          variant="body1"
+        >
+          photography
+        </Typography>
+        <Typography display="inline" variant="body1">
+          ! I am a certified lifeguard and a black-belt in Tae-Kwon-Do. You can
+          reach me through any of the links below.
+        </Typography>
+        <br />
+        <Divider />
+        <br />
         <Typography
           variant="body1"
           className={classes.subTitleSmall}
@@ -178,8 +186,8 @@ const AboutMe = () => {
           Languages
         </Typography>
 
-		<br/>
-		<Divider />
+        <br />
+        <Divider />
         {languages.map((tech, idx) => (
           <Typography
             onMouseEnter={() => changeImg(tech)}
@@ -188,11 +196,12 @@ const AboutMe = () => {
             key={tech}
             variant="body1"
           >
-            {tech}{idx === languages.length - 1 ? "" : ','}&nbsp;
+            {tech}
+            {idx === languages.length - 1 ? "" : ","}&nbsp;
           </Typography>
         ))}
-		<div/>
-		<br/>
+        <div />
+        <br />
 
         <Typography
           variant="body1"
@@ -202,8 +211,8 @@ const AboutMe = () => {
           Technologies
         </Typography>
 
-		<br/>
-		<Divider />
+        <br />
+        <Divider />
         {technologies.map((tech, idx) => (
           <Typography
             onMouseEnter={() => changeImg(tech)}
@@ -212,11 +221,12 @@ const AboutMe = () => {
             key={tech}
             variant="body1"
           >
-            {tech}{idx === technologies.length - 1 ? "" : ','}&nbsp;
+            {tech}
+            {idx === technologies.length - 1 ? "" : ","}&nbsp;
           </Typography>
         ))}
         <div />
-		<br/>
+        <br />
 
         <Typography
           variant="body1"
@@ -225,8 +235,8 @@ const AboutMe = () => {
         >
           Tools
         </Typography>
-		<br/>
-		<Divider/>
+        <br />
+        <Divider />
         {tools.map((tool, idx) => (
           <Typography
             onMouseEnter={() => changeImg(tool)}
@@ -235,12 +245,13 @@ const AboutMe = () => {
             key={tool}
             variant="body1"
           >
-            {tool}{idx === tools.length - 1 ? "" : ','}&nbsp;
+            {tool}
+            {idx === tools.length - 1 ? "" : ","}&nbsp;
           </Typography>
         ))}
         <div />
-		<br/>
-		
+        <br />
+
         <Grid container>
           <Grid item xs={12} md={3}>
             <a
@@ -283,7 +294,7 @@ const AboutMe = () => {
             {md && <br />}
           </Grid>
           <Grid item xs={12} md={3}>
-          <a
+            <a
               rel="noreferrer"
               target="_blank"
               href="mailto:keshav.gupta@uwaterloo.ca"
@@ -311,7 +322,7 @@ const AboutMe = () => {
         <div style={{ paddingBottom: "7%" }} />
       </Grid>
     </Grid>
-  );
-  };
-  
-export default AboutMe;
+  )
+}
+
+export default AboutMe

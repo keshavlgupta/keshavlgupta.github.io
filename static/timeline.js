@@ -1,9 +1,19 @@
 const timeline = [
   {
+    id: 10,
+    title: "Software Engineer I",
+    location: "SpaceX",
+    description: "Starlink supply chain team in Seattle, Washington.",
+    date: "February 2025 - Present",
+    icon: "fulltime",
+    logo: "./images/logos/spacex.png",
+  },
+  {
     id: 9,
     title: "Software Engineer",
     location: "SpaceX",
-    description: "Starlink supply chain team in Seattle, Washington.",
+    description:
+      "Enhanced a Production Part Approval Process (PPAP) application.",
     date: "May 2024 - August 2024",
     icon: "internship",
     logo: "./images/logos/spacex.png",
@@ -13,7 +23,7 @@ const timeline = [
     title: "Software Engineer",
     location: "SpaceX",
     description:
-      "Built a cost analysis and modelling system for the Starlink team in Seattle, Washington.",
+      "Built a cost analysis and modelling system to reduce production costs of satellite and rocket manufacturing.",
     date: "August 2023 - December 2023",
     icon: "internship",
     logo: "./images/logos/spacex.png",
