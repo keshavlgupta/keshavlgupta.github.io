@@ -41,6 +41,8 @@
   "component---src-pages-index-js-90ca9ea0e2abae3e75c5.js.map": "component---src-pages-index-js-90ca9ea0e2abae3e75c5.js.map",
   "component---src-pages-index-js-92fff56c4b3ff07f339a.js.LICENSE.txt": "component---src-pages-index-js-92fff56c4b3ff07f339a.js.LICENSE.txt",
   "component---src-pages-index-js-92fff56c4b3ff07f339a.js.map": "component---src-pages-index-js-92fff56c4b3ff07f339a.js.map",
+  "component---src-pages-index-js-a372fd54fc312e7a7835.js.LICENSE.txt": "component---src-pages-index-js-a372fd54fc312e7a7835.js.LICENSE.txt",
+  "component---src-pages-index-js-a372fd54fc312e7a7835.js.map": "component---src-pages-index-js-a372fd54fc312e7a7835.js.map",
   "component---src-pages-index-js-a82c0c21441509731b56.js.LICENSE.txt": "component---src-pages-index-js-a82c0c21441509731b56.js.LICENSE.txt",
   "component---src-pages-index-js-a82c0c21441509731b56.js.map": "component---src-pages-index-js-a82c0c21441509731b56.js.map",
   "component---src-pages-index-js-b3ee2ea1780b79a579c6.js.LICENSE.txt": "component---src-pages-index-js-b3ee2ea1780b79a579c6.js.LICENSE.txt",
@@ -67,7 +69,7 @@
   "component---src-pages-index-js-fc7899b9b61b6bb39be3.js.map": "component---src-pages-index-js-fc7899b9b61b6bb39be3.js.map",
   "component---src-pages-index-js-fee48cd88b518899b8e1.js.LICENSE.txt": "component---src-pages-index-js-fee48cd88b518899b8e1.js.LICENSE.txt",
   "component---src-pages-index-js-fee48cd88b518899b8e1.js.map": "component---src-pages-index-js-fee48cd88b518899b8e1.js.map",
-  "component---src-pages-index-js.js": "component---src-pages-index-js-a82c0c21441509731b56.js",
+  "component---src-pages-index-js.js": "component---src-pages-index-js-a372fd54fc312e7a7835.js",
   "framework-ad9ea4eba0525f0678b9.js.LICENSE.txt": "framework-ad9ea4eba0525f0678b9.js.LICENSE.txt",
   "framework-ad9ea4eba0525f0678b9.js.map": "framework-ad9ea4eba0525f0678b9.js.map",
   "framework.js": "framework-ad9ea4eba0525f0678b9.js",
@@ -92,7 +94,7 @@
   "static/java.png": "static/java-f5dd86c3ef6ef3f85acf14f07bf0daa8.png",
   "static/js.png": "static/js-3475505c699aca9efcb3264257b67a23.png",
   "static/keshav_gupta_photography.png": "static/keshav_gupta_photography-7fe173eb3ac2737f78639b37da9b1dbd.png",
-  "static/keshav_gupta_profile.png": "static/keshav_gupta_profile-e00cd98399ef31407e1919b04b449159.png",
+  "static/keshav_gupta_profile.png": "static/keshav_gupta_profile-c080eb0de229d63eb83fbaf3937f6806.png",
   "static/keshav_gupta_profile_bg.png": "static/keshav_gupta_profile_bg-e6cfcef06b392ae297914be6c7e8a382.png",
   "static/kubernetes.png": "static/kubernetes-67e424b5498df6aa8104d72ee93bb3e1.png",
   "static/mongo.png": "static/mongo-bb6df5879a2537695da6bdeeb284bb43.png",
@@ -134,6 +136,7 @@
   "webpack-runtime-df2619f45ffc85eacc72.js.map": "webpack-runtime-df2619f45ffc85eacc72.js.map",
   "webpack-runtime-e190bd7450600700c440.js.map": "webpack-runtime-e190bd7450600700c440.js.map",
   "webpack-runtime-e6d0339b26a1764deab1.js.map": "webpack-runtime-e6d0339b26a1764deab1.js.map",
+  "webpack-runtime-fc0ddcdcf8e0ed680c3e.js.map": "webpack-runtime-fc0ddcdcf8e0ed680c3e.js.map",
   "webpack-runtime-ff69305ca07e6c0088a9.js.map": "webpack-runtime-ff69305ca07e6c0088a9.js.map",
-  "webpack-runtime.js": "webpack-runtime-86d3974f0819355c6026.js"
+  "webpack-runtime.js": "webpack-runtime-fc0ddcdcf8e0ed680c3e.js"
 }
