@@ -257,7 +257,7 @@ const AboutMe = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://github.com/Kggupta"
+              href="https://github.com/keshavlgupta"
               className={classes.links}
             >
               <div className={classes.buttonSpacing}>
