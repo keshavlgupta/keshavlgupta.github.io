@@ -85,40 +85,14 @@ const AboutMe = () => {
     "C",
     "C++",
     "C#",
-    "GraphQL",
-    "Java",
-    "Swift",
     "SQL",
     "HTML",
     "CSS",
-    "Go",
   ]
 
-  const technologies = [
-    "Node",
-    "React",
-    "React Native",
-    "Redux",
-    "Vue",
-    "Flutter",
-    "Express",
-    ".NET",
-    "Flask",
-    "Django",
-  ]
+  const technologies = ["Node", "React", "Express", ".NET"]
 
-  const tools = [
-    "Azure",
-    "AWS",
-    "Heroku",
-    "Git",
-    "Apollo",
-    "Docker",
-    "Kubernetes",
-    "PostgreSQL",
-    "MongoDB",
-    "Firebase",
-  ]
+  const tools = ["Azure", "AWS", "Git", "Docker", "Kubernetes", "PostgreSQL"]
 
   const changeImg = language => {
     setFade(false)
@@ -152,12 +126,11 @@ const AboutMe = () => {
       {/* Text */}
       <Grid item xs={10} md={5}>
         <Typography display="inline" variant="body1">
-          I graduated from the <b>University of Waterloo</b> with a degree in
-          Computer Science in 2024.
-          <br />
-          <br />
           I'm currently a software engineer at <b>SpaceX</b> in
           <b> Seattle, Washington</b>.
+          <br />
+          <br />I graduated from the <b>University of Waterloo</b> with a degree
+          in Computer Science.
           <br />
           <br />
           When I am not programming, I love swimming, martial arts, and&nbsp;
@@ -297,7 +270,7 @@ const AboutMe = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="mailto:keshav.gupta@uwaterloo.ca"
+              href="mailto:keshavlgupta1@gmail.com"
               className={classes.links}
             >
               <div className={classes.buttonSpacing}>

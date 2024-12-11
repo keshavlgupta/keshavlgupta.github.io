@@ -8,15 +8,14 @@ import {
 } from "@material-ui/core"
 import { makeStyles } from "@material-ui/styles"
 import { Link } from "react-scroll"
-import Typewriter from "typewriter-effect"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
-import { IoMail } from "react-icons/io5"
+import { IoMail, IoLocation, IoBriefcase } from "react-icons/io5"
 import image from "../../static/images/keshav_gupta_profile.png"
 
 const links = [
   { link: "https://github.com/keshavlgupta", label: "github" },
   { link: "https://www.linkedin.com/in/keshavlgupta/", label: "linkedin" },
-  { link: "mailto:keshav.gupta@uwaterloo.ca", label: "email" },
+  { link: "mailto:keshavlgupta1@gmail.com", label: "email" },
 ]
 
 const Style = makeStyles(() => ({
@@ -118,33 +117,31 @@ const Home = () => {
               <br />
               <br />
               <div style={{ paddingBottom: "2%" }} />
-              <Typography className={classes.text} variant="h3">
-                <b>Hello there! My name is</b>
-              </Typography>
-              <br />
               <Typography className={classes.text} variant="h1">
                 Keshav Gupta
               </Typography>
               <div className={classes.inline}>
                 {isSmallScreen && (
-                  <p style={{ display: "inline-block" }}>
-                    <b>I am a</b>&nbsp;
-                  </p>
-                )}
-                {isSmallScreen && (
-                  <div style={{ display: "inline-block" }}>
-                    <b>
-                      <Typewriter
-                        options={{
-                          strings: ["Software Developer", "Leader", "Creator"],
-                          autoStart: true,
-                          loop: true,
-                        }}
-                      />
-                    </b>
-                  </div>
+                  <>
+                    <IoBriefcase className={{ width: "3vh" }} />
+                    &nbsp;
+                    <p style={{ display: "inline-block" }}>
+                      <b>SpaceX</b>
+                    </p>
+                  </>
                 )}
                 <br />
+                {isSmallScreen && (
+                  <>
+                    <IoLocation className={{ width: "3vh" }} />
+                    &nbsp;
+                    <p style={{ display: "inline-block" }}>
+                      <b>Seattle, Washington</b>
+                    </p>
+                  </>
+                )}
+                <br />
+                <div style={{ paddingBottom: "2%" }} />
                 <Link
                   style={{ textDecoration: "none" }}
                   smooth="true"
