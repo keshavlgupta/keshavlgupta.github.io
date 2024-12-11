@@ -3,7 +3,7 @@ const timeline = [
     id: 10,
     title: "Software Engineer I",
     location: "SpaceX",
-    description: "Starlink supply chain team in Seattle, Washington.",
+    description: "Starlink supply chain software team in Seattle, Washington.",
     date: "February 2025 - Present",
     icon: "fulltime",
     logo: "./images/logos/spacex.png",
