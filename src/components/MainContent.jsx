@@ -1,13 +1,6 @@
 import React from "react"
-import {
-  Typography,
-  Grid,
-  IconButton,
-  Button,
-  useMediaQuery,
-} from "@material-ui/core"
+import { Typography, Grid, IconButton, useMediaQuery } from "@material-ui/core"
 import { makeStyles } from "@material-ui/styles"
-import { Link } from "react-scroll"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { IoMail, IoLocation, IoBriefcase } from "react-icons/io5"
 import image from "../../static/images/keshav_gupta_profile.png"
@@ -142,17 +135,6 @@ const Home = () => {
                 )}
                 <br />
                 <div style={{ paddingBottom: "2%" }} />
-                <Link
-                  style={{ textDecoration: "none" }}
-                  smooth="true"
-                  duration={1000}
-                  offset={-70}
-                  to="about"
-                >
-                  <Button className={classes.ovalButton} variant="outlined">
-                    Get to know me
-                  </Button>
-                </Link>
               </div>
             </div>
           </div>
